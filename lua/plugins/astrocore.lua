@@ -67,8 +67,8 @@ return {
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
         ["<Leader><Space>"] = { "/", desc = "Search" },
-        ["<Leader>f"] = { "<C-f>", desc = "Go up a full screen" },
-        ["<Leader>b"] = { "<C-b>", desc = "Go down a full screen" },
+        ["<Leader>\\f"] = { "<C-f>", desc = "Go up a full screen" },
+        ["<Leader>\\b"] = { "<C-b>", desc = "Go down a full screen" },
       },
       t = {
         -- setting a mapping to false will disable it
