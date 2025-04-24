@@ -38,6 +38,16 @@ return {
     -- https://docs.astronvim.com/configuration/customizing_plugins#configure-astronvim-plugins
     opts = function(_, opts) opts.background_colour = "#000000" end,
   },
+  {
+    "kylechui/nvim-surround",
+    version = "^3.0.0", -- Use for stability; omit to use `main` branch for the latest features
+    event = "VeryLazy",
+    config = function()
+        require("nvim-surround").setup({
+            -- Configuration here, or leave empty to use defaults
+        })
+    end
+  }
 }
 
 -- -- You can also add or configure plugins by creating files in this `plugins/` folder
