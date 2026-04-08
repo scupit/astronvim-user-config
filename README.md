@@ -1,6 +1,6 @@
 # AstroNvim Template
 
-**NOTE:** This is for AstroNvim v4+
+**NOTE:** This is for AstroNvim v6+
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
@@ -32,3 +32,9 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Tracking Personal Changes
+
+**Last synced with template commit:** `49a7161` (`fix: Replaced deprecated vim.lsp methods (#40)`) from [AstroNvim/template](https://github.com/AstroNvim/template)
+
+Personal configuration changes are marked with `-- <sky-config>` / `-- </sky-config>` delimiters in the Lua files. When updating to a newer template version, look for these delimiters to identify the exact lines that differ from the upstream template and need to be preserved. Files without any delimiters are unmodified from the template.
